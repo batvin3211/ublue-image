@@ -14,7 +14,7 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 #rpm-ostree install screen
-rpm-ostree install webkit2gtk4-0
+rpm-ostree install webkit2gtk4.0
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
