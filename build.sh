@@ -19,7 +19,4 @@ rpm-ostree install webkit2gtk4.0
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
-# this would install a package from flathub
-flatpak install flathub it.mijorus.gearlever
-
 systemctl enable podman.socket
