@@ -25,10 +25,10 @@ jobs:
       fail-fast: false
       matrix:
         image_name:
-          [bluefin]
-        fedora_version: [39]
+          [ublue-image]
+        fedora_version: [latest]
     env:
-      IMAGE_TAG: ${{ matrix.fedora_version }}-amd64
+      IMAGE_TAG: ${{ matrix.fedora_version }}
       IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
 
     steps:
