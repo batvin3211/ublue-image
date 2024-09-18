@@ -1,4 +1,4 @@
-name: Build Cosmic ISOs
+name: Build custom bluefin ISOs
 on:
   workflow_dispatch:
   pull_request:
