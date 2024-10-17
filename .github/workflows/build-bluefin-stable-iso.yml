@@ -7,9 +7,9 @@ on:
 
 jobs:
   build-latest:
-    name: Bluefin Stable
+    name: Bluefin GTS
     uses: ./.github/workflows/reusable-build-iso.yml
     secrets: inherit
     with:
       brand_name: bluefin
-      fedora_version: stable
+      fedora_version: gts
