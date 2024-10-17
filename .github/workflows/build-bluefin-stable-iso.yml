@@ -13,3 +13,4 @@ jobs:
     with:
       brand_name: bluefin
       fedora_version: gts
+      image_flavor: main
